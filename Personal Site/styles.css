@@ -1,0 +1,69 @@
+body {
+  background-image: url(./images/flower-background.jpg);
+
+  margin: 0;
+  padding: 0;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+  height: 400px;
+}
+
+.pink-background {
+  background-image: url(./images/pink-background.jpg);
+  height: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.intro {
+  width: 100%;
+}
+
+@media (max-width: 1080px) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 786px) {
+  .intro {
+    margin-bottom: 15px;
+  }
+
+  .profile-img {
+    height: 275px;
+  }
+
+  .mobile-text {
+    text-align: center;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
